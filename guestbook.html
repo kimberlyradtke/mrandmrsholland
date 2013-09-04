@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Guestbook</title>
+<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+
+<a href="index.html"><img id="logo_image" src="images/logo_web.png" alt="logo"></a>
+
+<div id="nav_container">
+	<ul id="nav_list">
+		<li class="first"><a href="index.html">Home</a></li>
+		<li><a href="ourstory.html">Our Story</a></li>
+		<li><a href="weddingevents.html">Wedding Events</a></li>
+		<li><a href="weddingparty.html">Wedding Party</a></li>
+		<li><a href="registries.html">Registries</a></li>
+		<li><a href="travelinformation.html">Travel Information</a></li>
+		<li><a href="photos.html">Photos</a></li>
+		<li class="last"><a href="guestbook.html">Guestbook</a></li>
+	</ul>			
+</div> <!-- end id nav_container div -->	
+
+<div id="wrapper">
+
+	<div id="content">
+
+		<div id="guestbook">
+			
+			<h1>Guestbook</h1>
+		
+				<div class="image_list"><img class="image" src="images/couple2_web.jpg" alt="Kristin and Matthew"></div>
+			
+					<div class="guest_form">
+						<form method="post" action="http://webhawks.org/cgi-bin/bnbform/bnbform.cgi">
+			
+						<p>Please take a moment to sign our guestbook. We would love to hear from you!</p>
+			
+							<table>
+								<tr>
+									<td><label for="first_name">First Name:</label></td>
+									<td><input type="text" name="first_name" id="first_name" size="20" autofocus="autofocus"></td>
+								</tr>
+								<tr>
+									<td><label for="last_name">Last Name:</label></td>
+									<td><input type="text" name="last_name" id="last_name" size="20"></td>
+								</tr>
+								<tr>
+									<td><label for="email">Email Address:</label></td>
+									<td><input type="text" name="email" id="email" size="30"></td>
+								</tr>
+							</table>
+						<p id="note">Note: Your email address will be visible to the bride and groom only.</p>
+			
+			
+						<p>
+						What is your relation to the bride or groom?
+						<br>
+						<input type="radio" name="contact" value="family">Family
+						<br>
+						<input type="radio" name="contact" value="friend">Friend
+						<br>
+						<input type="radio" name="contact" value="co-worker">Co-Worker
+						<br>
+						<input type="radio" name="contact" value="other">Other
+						</p>
+			
+						<p>
+						Which wedding events will you be able to attend? (check all that apply>)
+						<br>
+						<input type="checkbox" name="rehearsal">Rehearsal Dinner
+						<br>
+						<input type="checkbox" name="ceremony">Wedding Ceremony
+						<br>
+						<input type="checkbox" name="reception">Wedding Reception
+						</p>
+			
+						<p>
+						Your Message:
+						<br>
+						<textarea name="comments" rows="6" cols="50"></textarea>
+						</p>
+			
+						<p>
+						<input type="submit" value="Submit">
+							<!-- For reset and submit buttons, whatever you put in "value" will be the label of the button; if you don't include a value="..." attribute, they will be named "Reset" and "Submit." -->
+						</p>
+			
+						<p>
+						<!-- SCRIPT CONFIGURATION SECTION -->
+						<input type="hidden" name="data_order" value="name, address, city, state, zip, email, phone, fax, contact, organization, business, hobby, computer_system, comments">
+						<input type="hidden" name="submit_to" value="kradtke35@gmail.com">
+						<input type="hidden" name="form_id" value="My Test Form">
+						<input type="hidden" name="ok_url" value="http://webhawks.org/~dm60akiradt0425/final/thanks.html">
+						<!-- END OF SCRIPT CONFIGURATION SECTION -->
+						</p>
+			
+						</form>
+					</div> <!-- end id guest_form div -->
+			</div> <!-- end id guestbook div -->
+
+	</div> <!-- end id content div -->
+
+</div> <!-- end id wrapper div -->
+
+<div id="footer_container">
+	<ul id="footer_list">
+		<li>Copyright &copy; 2012 Kimberly Radtke</li>
+		<li><a href="websitecredits.html">Website Credits</a></li>
+		<li id="sitemap"><a href="sitemap.html">Sitemap</a></li>
+	</ul>
+</div> <!-- end id footer_container div -->
+
+</body>
+
+</html>

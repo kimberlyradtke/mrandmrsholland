@@ -1,0 +1,559 @@
+
+
+body {
+	background: #008080;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+img#logo_image {
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper {
+	background: white;
+	width: 85%;
+	height: 100%;
+	margin: 40px auto 0 auto;
+	padding-top:50px;
+}	
+
+div#nav_container {
+	width: 700px;
+	padding: 0;
+	margin-bottom: 40px;
+	position: absolute; 
+	top: 105px; 
+	margin-left: -325px;
+	left: 48%
+}
+
+#nav_container ul {
+	color: #FFFFFF;
+	background-color: #151840;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+
+ul#nav_list li {
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 1px;
+	border-right: 1px solid #FFFFFF;
+	display: inline;
+}
+
+ul#nav_list li a:hover {
+	text-decoration: underline;
+}
+
+ul#nav_list li.last{
+	border-right: none;
+	padding-right: 0;
+}
+
+ul#nav_list li.first{
+	padding-left: 0;
+}
+
+#content {
+	width: 950px;
+}
+
+#footer_container {
+	margin: auto;
+	width: 85%;
+}
+
+#footer_container ul{
+	margin: auto;
+	background-color: #151840;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+}
+
+ul#footer_list li {
+	text-decoration: none;
+	display: inline;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 5px;
+	padding-left: 1px;
+}
+
+ul#footer_list li#sitemap {
+	border-right: none;
+}
+
+#footer_list a {
+	text-decoration: none;
+}
+
+ul#footer_list li a:hover {
+	text-decoration: underline;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #151840;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #008080;
+}
+
+a.contentlink {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover.contentlink {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FF7100
+}
+
+div.clear {
+	clear: both;
+}
+
+hr {
+	width: 95%;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+div.inline {
+	display: inline;
+}
+
+/* index.html */
+
+#index_message {
+	margin-top: 15px;
+}
+
+#index_content {
+	margin-bottom: 20px;
+}
+
+img#homeimage {
+	float: left;
+}
+
+#welcomeinfo {
+	margin: 0 20px 0 450px;
+}
+
+#welcomeinfo h1, #welcomeinfo h2 {
+	text-align: center;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	color: #FF7100;
+}
+
+#content h1 {
+	font-size: 24px;
+	color: #FF7100;
+}
+
+#content h2 {
+	font-size: 16px;
+}
+
+#content p {
+	font-size: 14px;
+	color: black;
+	margin-top: 20px;
+}
+
+#signature_right {
+	text-align: right;
+	margin-top: 20px;
+}
+
+#content ul.image_list {
+	list-style: none;
+	padding: 0;
+}
+
+#content p img {
+	border: 3px solid #151840;
+	box-shadow: 10px 10px 15px #888888;
+	margin: 0 0 20px 20px;
+}
+
+div#welcomeinfo p, div#hotel p, div#bridesparty p, div#groomsparty p, div#kristin p, div#matthew p, div#how_we_met p div#were_engaged p {
+	text-indent: 20px;
+}
+
+/* ourstory.html */
+
+img {
+	border: 3px solid #151840;
+}
+
+#kristin img {
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+
+#matthew img {
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+
+#how_we_met img {
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+
+#were_engaged img {
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+
+p.indent, h1.indent {
+	margin-left: 116px;
+	text-indent: 20px;
+}
+
+div#kristin {
+	clear: both;
+	height: 160px;
+	margin: 20px 20px 20px 20px; 
+}
+
+div#matthew, div#how_we_met, div#were_engaged {
+	clear: both;
+	height: 160px;
+	margin: 20px 20px 20px 20px; 
+}
+
+/* weddingevents.html */
+
+em {
+	color: #FF7100;
+	font-weight: bold;
+	font-style: italic;
+}
+	
+div#ceremonyinfo {
+	margin: 20px;
+}
+
+div#receptioninfo {
+	margin: 20px;
+}
+
+div#welcomedinner {
+	margin: 20px;
+	display: none;
+}
+
+#welcomedinner h1, #welcomedinner h2, #welcomedinner p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+#ceremonyinfo h1, #ceremonyinfo h2, #ceremonyinfo p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+#receptioninfo h1, #receptioninfo h2, #receptioninfo p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+#ceremonyinfo h2, #ceremonyinfo p, #receptioninfo h2, #receptioninfo p,#welcomedinner h2, #welcomedinner p{
+	padding: 2px;
+}
+
+#welcomedinner h2, #welcomedinner p {
+	margin-left: 10px;
+}
+
+#ceremonyinfo h2, #ceremonyinfo p {
+	margin-left: 10px;
+}
+
+#receptioninfo h2, #receptioninfo p {
+	margin-left: 10px;
+}
+
+#welcomedinner h2.date, #ceremonyinfo h2.date, #receptioninfo h2.date{
+	padding-top: 10px;
+}
+
+#welcomedinner h2.location, #ceremonyinfo h2.location, #receptioninfo h2.location{
+	padding-top: 10px;
+}
+
+div.website_link {
+	padding-top: 10px;
+}
+
+h2.website_link, h2.map {
+	display: inline;
+}
+
+div.location_address {
+	padding-top: 5px;
+}
+
+
+
+/* weddingparty.html */
+
+div#wedding_party_info {
+	margin: 0 20px 20px 20px;
+}
+
+div#bridesparty h2, div#groomsparty h2, div#officiant h2{
+	font-style: italic;
+}
+
+/* registries.html */
+
+img.couplebybus {
+	border: 3px solid #151840;
+	box-shadow: 10px 10px 15px #888888;
+	margin: 0 0 20px 20px;
+}
+
+p.center {
+	text-align: center;
+}
+
+div#registry_info {
+	float: right;
+	width: 650px;
+}
+
+ul#address li, ul#registry_links li {
+	list-style: none;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+
+ul#registry_links, ul#address {
+	padding: 0;
+}
+
+ul#address li, ul#registry_links a {
+	font-weight: bold;
+}
+
+/* photos.html */
+
+div#image_thumbnails {
+	margin: 0 20px 20px 20px;
+}
+
+a.thumbnail {
+	background-color: white;
+}
+
+a.thumbnail img {
+	box-shadow: none;
+}
+
+div.photos {
+	text-align: center;
+}
+
+#image_thumbnails p {
+	text-align: center;
+}
+
+div#images {
+	width: 865px;
+	padding-top: 35px;
+}
+
+div#images img {
+	text-align: center;
+	margin: 0 20px 20px 20px;
+}
+
+.photos ul li {
+	display: inline;
+}
+
+.photos ul {
+	width: 450px;
+	margin: auto;
+}
+
+a.back_button {
+	padding: 10px;
+}
+
+.scphoto { 
+	text-align: center; 
+	margin-bottom: 30px;
+}
+
+img.engagement_image {
+	display: block;
+	margin: 0 auto 30px auto;
+}
+
+/* travelinformation.html */
+
+ul#hotel_address li {
+	list-style: none;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+}
+
+ul#hotel_address {
+	padding: 0;
+}
+
+div#travelinformation_info {
+	margin: 0 20px 20px 20px;
+}
+
+ul#reservation_info li, ul#airport_info li {
+	font-size: 14px;
+	color: black;
+}
+
+
+/* guestbook.html */
+
+#guestbook {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#guestbook .guest_form{
+	text-align: left;
+}
+
+/* thanks.html */
+
+#thanks {
+	text-align: center;
+	width: 953px;
+}
+
+/* thingstodo.html */
+
+#todo_header {
+	margin-left: 20px;
+}
+
+h3 .todo_links {
+	list-style: none;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	background-color: #ffffff;
+	text-decoration: underline;
+}
+
+div.activity {
+	margin-left: 30px;
+	padding: 10px 0 10px 0;
+	line-height: 10px;
+}
+
+.activity h3 {
+	font-size: 14px;
+	}
+
+.activity h2 {
+	font-size: 16px;
+}
+
+/* websitecredits.html */
+
+p#permission {
+	margin: 100px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* sitemap.html */
+
+#relativelinks {
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#relativelinks a {
+	background-color: white;
+	color: black;
+}
+
+#relativelinks a:hover {
+	text-decoration: underline;
+}
+
+#externallinks {
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#externallinks a {
+	background-color: white;
+	color: black;
+}
+
+#externallinks a:hover {
+	text-decoration: underline;
+}
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
